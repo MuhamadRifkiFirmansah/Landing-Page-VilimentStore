@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Viliments</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="home">
+            <div class="hero">
+                <h2 class="heading">Viliments Store</h2>
+                <p class="sub-heading">Old But Gold</p>
+            </div>
+            <div class="feature features-1">
+                <h4 class="price">IDR 200K</h4>
+                <p class="item">Shoes</p>
+            </div>
+            <div class="feature features-2">
+                <h4 class="price">IDR 300K</h4>
+                <p class="item">T-Shirt</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="text" class="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <img src="assets/img/logo.png" alt="">
+            </div>
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        
+        <section class="services">
+            <div class="box">
+                <div class="desc">
+                    <a href=""><h3>Converse</h3></a>
+                </div>
+            </div>
+            <div class="box2">
+                <a href=""><h3>Adidas</h3></a>
+            </div>
+            <div class="box3">
+                <a href=""><h3>HIJACK</h3></a>
+            </div>
+        </section>
+    
+        <section class="sale">
+            <div class="label promo">
+                <h3 class="title">New Product!</h3>
+                <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Facilis possimus tempore laboriosam?</p>
+            </div>
+            <div class="item promo">
+                <img src="assets/img/services-1.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="product" id="product">
+            <h2>Our Product</h2>
+            <div class="gallery">
+                <div class="card">
+                    <img src="assets/img/services-4.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$20</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-4.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$20</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-4.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$20</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-4.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$20</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-4.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$20</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-1.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$50</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-1.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$50</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-1.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$50</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-1.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$50</p>
+                    </div>                    
+                </div>
+                <div class="card">
+                    <img src="assets/img/services-1.jpg" alt="">
+                    <div class="desc">
+                        <h3>Converse</h3>
+                        <p>$50</p>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="right">
+                <div class="top">Want to sell your shoes ?</div>
+                <div class="mid">Call 555-215-520</div>
+                <div class="bot">Email : Viliments@gmail.com</div>
+            </div>
+            <div class="left">
+                <h1>About</h1>
+                <p>Toko yang berdiri tahun 2017 menggeluti <br> jual beli outfit anak muda masa kini dan sangat terpercaya</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <img src="assets/img/logo.png" alt="">
+        <h4>&copy Copyright Muhamad Rifki Firmansah</h4>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
